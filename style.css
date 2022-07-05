@@ -1,0 +1,141 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 60px;
+  font-weight: 800;
+  color: Tomato;
+}
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 25px;
+}
+h5 {
+  font-size: 15px;
+}
+p {
+  font-size: 20px;
+}
+section {
+  height: 500px;
+  margin-bottom: 5px;
+}
+.half-width {
+  width: 40%;
+  float: left;
+  margin: 2%;
+  padding: 2%;
+}
+/* Main Section */
+.half-width img {
+  width: 100%;
+}
+.main-area {
+  background-image: url("images/header-bg.png");
+  background-repeat: no-repeat;
+}
+.btn1 {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, lightsalmon, tomato);
+  color: white;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.btn2 {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, lightsalmon, tomato);
+  color: white;
+  font-weight: bold;
+  padding: 10px 50px;
+  border-radius: 5px;
+}
+/* Biography Section */
+.myself {
+  color: tomato;
+  font-weight: bold;
+}
+#para {
+  margin-top: 80px;
+}
+.biography-area {
+  background-image: url("images/biography-bg.png");
+  background-repeat: no-repeat;
+  height: 800px;
+}
+/* My Latest Work Area */
+#work-name {
+  text-align: center;
+  margin-top: 50px;
+}
+.work-pic {
+  width: 30%;
+  margin: 1.5%;
+  margin-top: 100px;
+}
+.work-area {
+  background-image: url("images/latest-work-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  width: 100%;
+}
+/* Client Section */
+.client-name {
+  text-align: center;
+  margin-top: 50px;
+}
+.client-name {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.client-name-p {
+  margin: 0;
+}
+.quote {
+  text-align: center;
+  padding: 10px;
+}
+.email-box {
+  height: 150px;
+  width: 50%;
+  margin: 0 auto;
+  background-image: linear-gradient(45deg, deeppink, lightsalmon);
+  border-radius: 15px;
+  color: white;
+}
+.email-p {
+  text-align: center;
+  color: white;
+}
+.email-1 {
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+.email-2 {
+  text-decoration: none;
+  margin-top: 0;
+}
+.click {
+  color: white;
+  text-align: center;
+  margin: 2px;
+  padding: 1px;
+}
+.client-area {
+  background-image: url("images/footer-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+}
+/* Footer */
+.copyright {
+  text-align: center;
+  font-size: 15px;
+}
